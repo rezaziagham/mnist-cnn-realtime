@@ -1,20 +1,20 @@
-# 🧠 MNIST CNN + Real-Time Digit Recognition
+# MNIST CNN + Real-Time Digit Recognition
 
 A clean, modular deep learning project for classifying handwritten digits using a Convolutional Neural Network (CNN), and running real-time digit detection using your webcam and OpenCV.
 
 ---
 
-## 📌 Features
+##  Features
 
-- ✅ Train a CNN on MNIST dataset
-- 📈 Visualize predictions, confusion matrix, and classification metrics
-- 📷 Real-time digit detection via webcam
-- 🧼 Modular Python structure for clarity and maintainability
-- 💾 Trained model saving and reuse
+-  Train a CNN on MNIST dataset
+-  Visualize predictions, confusion matrix, and classification metrics
+-  Real-time digit detection via webcam
+-  Modular Python structure for clarity and maintainability
+-  Trained model saving and reuse
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 mnist_cnn_project/
@@ -36,7 +36,7 @@ mnist_cnn_project/
 
 ---
 
-## 📥 Setup
+##  Setup
 
 ### 1. Clone the Repository
 
@@ -67,9 +67,9 @@ from tensorflow.keras.datasets import mnist
 
 ---
 
-## 🚀 Usage
+##  Usage
 
-### 🧠 Train the CNN Model
+###  Train the CNN Model
 
 ```bash
 python main.py
@@ -81,7 +81,7 @@ This will:
 
 ---
 
-### 🎥 Run Real-Time Digit Recognition
+###  Run Real-Time Digit Recognition
 
 ```bash
 python run_realtime.py
@@ -92,11 +92,11 @@ This will:
 - Detect digits in real-time
 - Highlight valid digits with prediction and confidence
 
-> ✅ Press `q` to exit the webcam window
+>  Press `q` to exit the webcam window
 
 ---
 
-## 📊 Example Output
+##  Example Output
 
 **Training Sample:**
 
@@ -105,7 +105,7 @@ This will:
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3.8+
 - TensorFlow 2.x
@@ -120,7 +120,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 Learn More
+## Learn More
 
 - [Convolutional Neural Networks](https://cs231n.github.io/convolutional-networks/)
 - [OpenCV](https://opencv.org/)
@@ -128,6 +128,6 @@ pip install -r requirements.txt
 ---
 
 
-## 🛡 License
+## License
 
 MIT License - feel free to use, modify, and share.
