@@ -41,7 +41,7 @@ mnist_cnn_project/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/mnist-cnn-realtime.git
+git clone https://github.com/rezaziagham/mnist-cnn-realtime.git
 cd mnist-cnn-realtime
 ```
 
@@ -59,6 +59,11 @@ Download the MNIST dataset from Keras and place it inside the `data/` folder:
 mkdir data
 wget https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz -P data/
 ```
+ or you can use it directly from tensorflow:
+ 
+```bash
+from tensorflow.keras.datasets import mnist
+```
 
 ---
 
@@ -72,7 +77,6 @@ python main.py
 
 This will:
 - Train the model on the MNIST dataset
-- Show sample images, accuracy, confusion matrix, and classification report
 - Save the model as `models/mnist_cnn_model.h5`
 
 ---
@@ -98,15 +102,6 @@ This will:
 
 ![Training Digits](https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png)
 
-**Real-Time Detection (Conceptual):**
-
-```
-+-------------------------+
-|  Pred: 3 (98%)         |
-|  Digit highlighted in  |
-|  green on webcam frame |
-+-------------------------+
-```
 
 ---
 
@@ -127,20 +122,11 @@ pip install -r requirements.txt
 
 ## 📚 Learn More
 
-- [MNIST Dataset](http://yann.lecun.com/exdb/mnist/)
 - [Convolutional Neural Networks](https://cs231n.github.io/convolutional-networks/)
 - [OpenCV](https://opencv.org/)
 
 ---
 
-## 🧑‍💻 Author
-
-**Reza Ziagham Ahwazi**  
-.NET Developer & Machine Learning Enthusiast  
-📧 reza.ziagham@gmail.com  
-[LinkedIn](https://www.linkedin.com/in/reza-ziagham-ahvazi-407a25214)
-
----
 
 ## 🛡 License
 
